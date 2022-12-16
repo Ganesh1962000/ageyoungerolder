@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-Younger-Olderr</title>
+</head>
+<body>
+
+    <script>
+        //---------Younger & Older 
+
+        let a = parseInt(prompt("Enter the age"));
+        let b = parseInt(prompt("Enter the age"));
+        let c = parseInt(prompt("Enter the age")); 
+        
+        if (a>b && a>c){
+            console.log("a is Older");
+            if(b<c){
+                console.log("b is Younger");
+            }
+            else{
+                console.log("c is Younger");
+            }
+        }
+        else if(b>a && b>c){
+            console.log("b is Older");
+            if(a<c){
+                console.log("a is Younger");
+            }
+            else{
+                console.log("c is Younger");
+            }
+        }
+        else{
+            console.log("c is Older");
+            if(a<b){
+                console.log("a is Younger");
+            }
+            else{
+                console.log("b is Younger");
+            }
+        }
+    </script>
+    
+</body>
+</html>
